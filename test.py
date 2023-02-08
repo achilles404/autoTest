@@ -17,6 +17,7 @@ driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 driver.get("http://10.0.9.144:18080/")
 # 浏览器最大化
 driver.maximize_window()
+
 # 等待2秒
 time.sleep(2)
 # driver.find_element定位元素，send_keys输入用户名
